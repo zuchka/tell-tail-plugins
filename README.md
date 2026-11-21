@@ -19,6 +19,6 @@ codex plugin add tell-tail@tell-tail-plugins
 
 ## Package
 
-Plugin 0.2.1 bundles the Tell-Tail 0.4.0 executable for macOS arm64. The [build record](plugins/tell-tail/build.json) identifies the [source commit](https://github.com/zuchka/tell-tail/tree/6992db1ac7f2a0da515bc218a0f0202887d8baa6) and executable checksum.
+Plugin 0.3.0 bundles the Tell-Tail 0.5.0 executable for macOS arm64. The [build record](plugins/tell-tail/build.json) identifies the [source commit](https://github.com/zuchka/tell-tail/tree/2f2eb2c373e63d18b18272640ba63777d0ecf08b) and executable checksum.
 
 [Privacy policy](https://tell-tail.dev/privacy) · [Report an issue](https://github.com/zuchka/tell-tail/issues) · [License](plugins/tell-tail/LICENSE)
