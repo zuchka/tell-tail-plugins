@@ -4,18 +4,18 @@ This catalog installs Tell-Tail on an Apple Silicon Mac and makes it available i
 
 ## Use in Codex
 
-Run these commands in Terminal with the Codex CLI installed:
+Select **Use in Codex** on the [Tell-Tail website](https://tell-tail.dev/#use-in-codex). On your first visit, Codex opens Plugins. Choose **Add → Add a marketplace**, enter `zuchka/tell-tail-plugins`, and select **Add marketplace**. The website button now opens the Tell-Tail listing, where you can click **Install**.
+
+Open a new local Codex chat and ask **“Open my Codex logs.”** Tell-Tail opens a local dashboard and follows supported desktop logs for that session.
+
+For ongoing tool-call tracing, ask **“Set up persistent tool-call tracing.”** After you approve setup, restart Codex once. The collector then starts at login. If you enable the collector, ask Codex to uninstall it before removing the plugin.
+
+### Install with the Codex CLI
 
 ```sh
 codex plugin marketplace add zuchka/tell-tail-plugins
 codex plugin add tell-tail@tell-tail-plugins
 ```
-
-Prefer to click **Install** in Codex? Run the first command, restart the desktop app, open the Plugins Directory, and select **Tell-Tail** as the catalog. Open the Tell-Tail listing and click **Install**.
-
-Open a new local Codex chat and ask **“Open my Codex logs.”** Tell-Tail opens a local dashboard and follows supported desktop logs for that session.
-
-For ongoing tool-call tracing, ask **“Set up persistent tool-call tracing.”** After you approve setup, restart Codex once. The collector then starts at login. If you enable the collector, ask Codex to uninstall it before removing the plugin.
 
 ## Package
 
