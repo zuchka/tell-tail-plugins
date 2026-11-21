@@ -4,7 +4,7 @@ This catalog installs Tell-Tail on an Apple Silicon Mac and makes it available i
 
 ## Use in Codex
 
-Select **Use in Codex** on the [Tell-Tail website](https://tell-tail.dev/#use-in-codex). On your first visit, Codex opens Plugins. Choose **Add → Add a marketplace**, enter `zuchka/tell-tail-plugins`, and select **Add marketplace**. The website button now opens the Tell-Tail listing, where you can click **Install**.
+On your first visit, choose **Copy catalog**, then **Use in Codex** on the [Tell-Tail website](https://tell-tail.dev/#use-in-codex). In Plugins, choose **Add → Add a marketplace**, paste `zuchka/tell-tail-plugins`, and select **Add marketplace**. Codex opens the Tell-Tail catalog. Select **Tell-Tail → Install**. Once the catalog is added, **Use in Codex** opens the listing directly.
 
 Open a new local Codex chat and ask **“Open my Codex logs.”** Tell-Tail opens a local dashboard and follows supported desktop logs for that session.
 
