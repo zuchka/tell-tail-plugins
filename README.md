@@ -11,6 +11,8 @@ codex plugin marketplace add zuchka/tell-tail-plugins
 codex plugin add tell-tail@tell-tail-plugins
 ```
 
+Prefer to click **Install** in Codex? Run the first command, restart the desktop app, open the Plugins Directory, and select **Tell-Tail** as the catalog. Open the Tell-Tail listing and click **Install**.
+
 Open a new local Codex chat and ask **“Open my Codex logs.”** Tell-Tail opens a local dashboard and follows supported desktop logs for that session.
 
 For ongoing tool-call tracing, ask **“Set up persistent tool-call tracing.”** After you approve setup, restart Codex once. The collector then starts at login. If you enable the collector, ask Codex to uninstall it before removing the plugin.
