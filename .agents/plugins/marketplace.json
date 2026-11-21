@@ -1,0 +1,20 @@
+{
+  "name": "tell-tail-plugins",
+  "interface": {
+    "displayName": "Tell-Tail"
+  },
+  "plugins": [
+    {
+      "name": "tell-tail",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tell-tail"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

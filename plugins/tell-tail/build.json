@@ -1,0 +1,9 @@
+{
+  "platform": "macos",
+  "architecture": "arm64",
+  "preview": false,
+  "target": "aarch64-apple-darwin",
+  "source_commit": "6992db1ac7f2a0da515bc218a0f0202887d8baa6",
+  "source_dirty": false,
+  "sha256": "2b11c045a482c46fe80857e46a49b84897e8350b4f202a153a0523f3a4251fe0"
+}
